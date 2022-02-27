@@ -1,0 +1,6 @@
+framework module Pods_TipFlixTests {
+  umbrella header "Pods-TipFlixTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

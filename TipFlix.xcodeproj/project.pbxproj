@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		0ECB003027CA642800E08748 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB002F27CA642800E08748 /* AppDelegate.swift */; };
 		0ECB003227CA642800E08748 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB003127CA642800E08748 /* SceneDelegate.swift */; };
-		0ECB003427CA642800E08748 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB003327CA642800E08748 /* ViewController.swift */; };
 		0ECB003727CA642800E08748 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ECB003527CA642800E08748 /* Main.storyboard */; };
 		0ECB003927CA642900E08748 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ECB003827CA642900E08748 /* Assets.xcassets */; };
 		0ECB003C27CA642900E08748 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ECB003A27CA642900E08748 /* LaunchScreen.storyboard */; };
 		0ECB004727CA642900E08748 /* TipFlixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB004627CA642900E08748 /* TipFlixTests.swift */; };
 		0ECB005127CA642900E08748 /* TipFlixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB005027CA642900E08748 /* TipFlixUITests.swift */; };
 		0ECB005327CA642900E08748 /* TipFlixUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB005227CA642900E08748 /* TipFlixUITestsLaunchTests.swift */; };
+		0ECB006027CA8B9D00E08748 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB005F27CA8B9D00E08748 /* MoviesViewController.swift */; };
+		0ECB006227CA960F00E08748 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECB006127CA960F00E08748 /* MovieCell.swift */; };
+		0ECB006527CA995100E08748 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 0ECB006427CA995100E08748 /* AlamofireImage */; };
+		54EE5FFF513264351181BFD9 /* Pods_TipFlix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54FF5733BB001DAE7DE778CC /* Pods_TipFlix.framework */; };
+		BF13F635810E1DA1302C9B53 /* Pods_TipFlix_TipFlixUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C69279D8FA1F798B1E1BFCCE /* Pods_TipFlix_TipFlixUITests.framework */; };
+		D5C2907E5AEF311E7A0CA3F8 /* Pods_TipFlixTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B7CE55B661BE963886AAFBE /* Pods_TipFlixTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B7CE55B661BE963886AAFBE /* Pods_TipFlixTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TipFlixTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ECB002C27CA642800E08748 /* TipFlix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipFlix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ECB002F27CA642800E08748 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0ECB003127CA642800E08748 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0ECB003327CA642800E08748 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0ECB003627CA642800E08748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0ECB003827CA642900E08748 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0ECB003B27CA642900E08748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +54,16 @@
 		0ECB004C27CA642900E08748 /* TipFlixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipFlixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ECB005027CA642900E08748 /* TipFlixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipFlixUITests.swift; sourceTree = "<group>"; };
 		0ECB005227CA642900E08748 /* TipFlixUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipFlixUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0ECB005F27CA8B9D00E08748 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		0ECB006127CA960F00E08748 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		2029D357A44CB5A1F6650ED8 /* Pods-TipFlixTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TipFlixTests.release.xcconfig"; path = "Target Support Files/Pods-TipFlixTests/Pods-TipFlixTests.release.xcconfig"; sourceTree = "<group>"; };
+		34C30F18375DF12792DFCDF4 /* Pods-TipFlix-TipFlixUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TipFlix-TipFlixUITests.release.xcconfig"; path = "Target Support Files/Pods-TipFlix-TipFlixUITests/Pods-TipFlix-TipFlixUITests.release.xcconfig"; sourceTree = "<group>"; };
+		54FF5733BB001DAE7DE778CC /* Pods_TipFlix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TipFlix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8808279EE4671B860AD6BEC2 /* Pods-TipFlix-TipFlixUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TipFlix-TipFlixUITests.debug.xcconfig"; path = "Target Support Files/Pods-TipFlix-TipFlixUITests/Pods-TipFlix-TipFlixUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA4AABB2D61BFC32428931BC /* Pods-TipFlix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TipFlix.debug.xcconfig"; path = "Target Support Files/Pods-TipFlix/Pods-TipFlix.debug.xcconfig"; sourceTree = "<group>"; };
+		C69279D8FA1F798B1E1BFCCE /* Pods_TipFlix_TipFlixUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TipFlix_TipFlixUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA87CE9BF071156EBF0B5791 /* Pods-TipFlixTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TipFlixTests.debug.xcconfig"; path = "Target Support Files/Pods-TipFlixTests/Pods-TipFlixTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FAB01829AB5EE3C07C14F3B4 /* Pods-TipFlix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TipFlix.release.xcconfig"; path = "Target Support Files/Pods-TipFlix/Pods-TipFlix.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +71,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ECB006527CA995100E08748 /* AlamofireImage in Frameworks */,
+				54EE5FFF513264351181BFD9 /* Pods_TipFlix.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5C2907E5AEF311E7A0CA3F8 /* Pods_TipFlixTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF13F635810E1DA1302C9B53 /* Pods_TipFlix_TipFlixUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +102,8 @@
 				0ECB004527CA642900E08748 /* TipFlixTests */,
 				0ECB004F27CA642900E08748 /* TipFlixUITests */,
 				0ECB002D27CA642800E08748 /* Products */,
+				656BAEB91A38B3A18FEF7D92 /* Pods */,
+				D25836483B9A06CB2DCD3007 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,8 +122,9 @@
 			children = (
 				0ECB002F27CA642800E08748 /* AppDelegate.swift */,
 				0ECB003127CA642800E08748 /* SceneDelegate.swift */,
-				0ECB003327CA642800E08748 /* ViewController.swift */,
 				0ECB003527CA642800E08748 /* Main.storyboard */,
+				0ECB006127CA960F00E08748 /* MovieCell.swift */,
+				0ECB005F27CA8B9D00E08748 /* MoviesViewController.swift */,
 				0ECB003827CA642900E08748 /* Assets.xcassets */,
 				0ECB003A27CA642900E08748 /* LaunchScreen.storyboard */,
 				0ECB003D27CA642900E08748 /* Info.plist */,
@@ -127,6 +149,30 @@
 			path = TipFlixUITests;
 			sourceTree = "<group>";
 		};
+		656BAEB91A38B3A18FEF7D92 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA4AABB2D61BFC32428931BC /* Pods-TipFlix.debug.xcconfig */,
+				FAB01829AB5EE3C07C14F3B4 /* Pods-TipFlix.release.xcconfig */,
+				8808279EE4671B860AD6BEC2 /* Pods-TipFlix-TipFlixUITests.debug.xcconfig */,
+				34C30F18375DF12792DFCDF4 /* Pods-TipFlix-TipFlixUITests.release.xcconfig */,
+				CA87CE9BF071156EBF0B5791 /* Pods-TipFlixTests.debug.xcconfig */,
+				2029D357A44CB5A1F6650ED8 /* Pods-TipFlixTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D25836483B9A06CB2DCD3007 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54FF5733BB001DAE7DE778CC /* Pods_TipFlix.framework */,
+				C69279D8FA1F798B1E1BFCCE /* Pods_TipFlix_TipFlixUITests.framework */,
+				0B7CE55B661BE963886AAFBE /* Pods_TipFlixTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,15 +180,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0ECB005627CA642900E08748 /* Build configuration list for PBXNativeTarget "TipFlix" */;
 			buildPhases = (
+				2135B70D14B9AFB864F4ECF2 /* [CP] Check Pods Manifest.lock */,
 				0ECB002827CA642800E08748 /* Sources */,
 				0ECB002927CA642800E08748 /* Frameworks */,
 				0ECB002A27CA642800E08748 /* Resources */,
+				B9390A49417F0B6A8121190B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = TipFlix;
+			packageProductDependencies = (
+				0ECB006427CA995100E08748 /* AlamofireImage */,
+			);
 			productName = TipFlix;
 			productReference = 0ECB002C27CA642800E08748 /* TipFlix.app */;
 			productType = "com.apple.product-type.application";
@@ -151,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0ECB005927CA642900E08748 /* Build configuration list for PBXNativeTarget "TipFlixTests" */;
 			buildPhases = (
+				49634CAAAA57D0065A9DC4C7 /* [CP] Check Pods Manifest.lock */,
 				0ECB003E27CA642900E08748 /* Sources */,
 				0ECB003F27CA642900E08748 /* Frameworks */,
 				0ECB004027CA642900E08748 /* Resources */,
@@ -169,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0ECB005C27CA642900E08748 /* Build configuration list for PBXNativeTarget "TipFlixUITests" */;
 			buildPhases = (
+				843C267DA03BBE84E2A4AA6F /* [CP] Check Pods Manifest.lock */,
 				0ECB004827CA642900E08748 /* Sources */,
 				0ECB004927CA642900E08748 /* Frameworks */,
 				0ECB004A27CA642900E08748 /* Resources */,
+				82F1D6AD7750DE444864684C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -215,6 +269,9 @@
 				Base,
 			);
 			mainGroup = 0ECB002327CA642800E08748;
+			packageReferences = (
+				0ECB006327CA995100E08748 /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+			);
 			productRefGroup = 0ECB002D27CA642800E08748 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -253,14 +310,118 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2135B70D14B9AFB864F4ECF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TipFlix-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49634CAAAA57D0065A9DC4C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TipFlixTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82F1D6AD7750DE444864684C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TipFlix-TipFlixUITests/Pods-TipFlix-TipFlixUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TipFlix-TipFlixUITests/Pods-TipFlix-TipFlixUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TipFlix-TipFlixUITests/Pods-TipFlix-TipFlixUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		843C267DA03BBE84E2A4AA6F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TipFlix-TipFlixUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9390A49417F0B6A8121190B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TipFlix/Pods-TipFlix-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TipFlix/Pods-TipFlix-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TipFlix/Pods-TipFlix-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0ECB002827CA642800E08748 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0ECB003427CA642800E08748 /* ViewController.swift in Sources */,
 				0ECB003027CA642800E08748 /* AppDelegate.swift in Sources */,
 				0ECB003227CA642800E08748 /* SceneDelegate.swift in Sources */,
+				0ECB006227CA960F00E08748 /* MovieCell.swift in Sources */,
+				0ECB006027CA8B9D00E08748 /* MoviesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +595,7 @@
 		};
 		0ECB005727CA642900E08748 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA4AABB2D61BFC32428931BC /* Pods-TipFlix.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -462,6 +624,7 @@
 		};
 		0ECB005827CA642900E08748 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAB01829AB5EE3C07C14F3B4 /* Pods-TipFlix.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -490,6 +653,7 @@
 		};
 		0ECB005A27CA642900E08748 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA87CE9BF071156EBF0B5791 /* Pods-TipFlixTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +674,7 @@
 		};
 		0ECB005B27CA642900E08748 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2029D357A44CB5A1F6650ED8 /* Pods-TipFlixTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -530,6 +695,7 @@
 		};
 		0ECB005D27CA642900E08748 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8808279EE4671B860AD6BEC2 /* Pods-TipFlix-TipFlixUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -548,6 +714,7 @@
 		};
 		0ECB005E27CA642900E08748 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34C30F18375DF12792DFCDF4 /* Pods-TipFlix-TipFlixUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -604,6 +771,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0ECB006327CA995100E08748 /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/AlamofireImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0ECB006427CA995100E08748 /* AlamofireImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0ECB006327CA995100E08748 /* XCRemoteSwiftPackageReference "AlamofireImage" */;
+			productName = AlamofireImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0ECB002427CA642800E08748 /* Project object */;
 }
